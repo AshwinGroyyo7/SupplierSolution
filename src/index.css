@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "BioSans-Bold";
+  src: local("BioSans-Bold"),
+    url("./fonts/BioSans-Bold.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "BioSans-Light";
+  src: local("BioSans-Light"),
+    url("./fonts/BioSans-Light.otf") format("truetype");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "BioSans-Regular";
+  src: local("BioSans-Regular"),
+    url("./fonts/BioSans-Regular.otf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "BioSans-SemiBold";
+  src: local("BioSans-SemiBold"),
+    url("./fonts/BioSans-SemiBold.otf") format("truetype");
+}
